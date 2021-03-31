@@ -1,0 +1,19 @@
+<html>
+<body>
+
+<h2>Iframe - Target for a Link</h2>
+<h3>its my persoal blog</h3>
+<iframe  src="demo_iframe.html" name="iframe_a" height="500px" width="900px" title="its vishnu blog" style="border: 5px solid black; align:center"></iframe>
+
+<p><a href="https://vishnu2030.blogspot.com/" target="iframe_a"  >Vishnu Bheemathati</a></p>
+
+<p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
+<iframe  src="demo_iframe.html" name="iframe_b" height="600px" width="800px" title="its vishnu blog" style="border: 5px solid black; align:center"></iframe>
+
+<p><a target="iframe_b" href="https://www.youtube.com/embed/zIwLWfaAg-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" >Elon Musk</a></p>
+
+
+<iframe target="iframe_c"  width="560" height="315" src="https://www.youtube.com/embed/zIwLWfaAg-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p><a target="iframe_c" href="https://www.youtube.com/embed/zIwLWfaAg-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" target="iframe_b"  >Elon Musk</a></p>
+</body>
+</html>
